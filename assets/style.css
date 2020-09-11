@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 950px;
+    margin: 25px auto;
+    text-align: center;
+    color: #000;
+}
+
+header.judul {
+    font-size: 17pt;
+}
+
+header.penjelasan {
+    font-size: 11pt;
+}
+
+main {
+    width: 950px;
+    margin: 25px auto;
+}
+
+nav ul {
+    overflow: hidden;
+	color: #fff;
+	list-style: none;
+	float: left;
+	padding: 0;
+	width: 650px;
+	margin: 0 0 0;
+	background: #800000;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55); 
+}
+
+nav ul li {
+    margin: 0;
+    float: left;
+}
+
+nav ul a {
+    padding: 25px;
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    background: #cc6666;
+}
+
+aside {
+     float: right;
+     width: 275px;
+}
+
+aside .sidebar {
+    padding: 25px;
+	margin: 0 0 25px;
+	background: #fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+    background-color: #cc6666;
+}
+
+aside .sidebar img{
+	min-width: 150px;
+	max-width: 150px;
+	border-radius: 100%;
+}
+
+aside .sidebar:hover{
+    border-bottom: 2px solid #fff;
+}
+
+aside .sidebar h2{
+    padding: 0;
+	margin: 0 0 15px;
+	color: #f8c4c4;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+aside .sidebar p {
+	font-size: 14px;
+}
+
+aside .sidebar p:last-child {
+    margin: 0px;
+}
+
+aside .sidebar .clockstyle {
+	font-size: 50px;
+	color: #800000;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#content {
+    float: left;
+}
+
+article {
+    width: 600px;
+	padding: 25px;
+	margin: 25px auto;
+	background: #cc6666;
+	border: 1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+article img {
+    float: left;
+	min-width: 600px;
+	max-width: 600px;
+	margin: 0 0 25px ;
+}
+
+article h1 {
+    padding: 0px;
+	margin: 0px 0px 15px;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	font-family: georgia;
+}
+
+hr{
+	border: 0px;
+	background: red;
+	height: 1px;
+}
+
+article p {
+	text-align: justify;
+}
+
+article p:last-child {
+    margin: 0px;
+}
+
+article .article-link {
+    color: blue;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+article .article-link {
+    margin-left: 10px;
+}
+
+footer {
+	width: 90%;
+}
+
+#footer{
+	clear: both;
+	float: inherit;
+	margin: 0 auto 25px;
+	width: 101%;
+	border: 1px solid #dedede;
+	padding: 5%;
+	background: #800000;
+}
+
+table {
+	background:none repeat scroll 0 0 #fff;
+	border:1px solid #f0f0f0;
+	border-collapse:collapse;
+	border-spacing:0;
+	text-align:left;
+	width:100%;
+  }
+  table tr td, table tr th {padding:0.625rem;}
+  table tfoot, table thead,table tr:nth-of-type(2n) {background:none repeat scroll 0 0 #f8baba;}
+  th,table tr:nth-of-type(2n) td {border-right:1px solid #fff;}
+  td {border-right:1px solid #f0f0f0;}
+
+@media screen and (max-width: 960px){
+    header {
+        width: 90%;
+        margin: 25px auto;
+        position: inherit;
+    }
+
+    main {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    aside {
+        width: 100%;
+		margin: 25px 0 0;
+		float: right;
+    }
+
+    aside .sidebar {
+        padding: 5%;
+    }
+
+    nav ul{
+		width: 100%;
+	}
+
+	nav ul{
+		float: inherit;
+	}
+
+	nav ul li{
+		float: inherit;
+		margin: 0;
+	}
+
+	nav ul a{
+		padding: 15px;
+		font-size: 16px;
+		border-top: 1px solid #cc6666;
+		border-bottom: 1px solid #ff9999;
+    }
+    
+    #content {
+        width: 90%;
+    }
+
+    article {
+        float: inherit;
+		margin: 0 auto 25px;
+		width: 101%;
+		border: 1px solid #dedede;
+		padding: 5%;
+		background: #cc6666;
+    }
+
+    article img {
+        max-width: 100%;
+		margin: 0 0 25px ;
+		min-width: 100%;
+    }
+
+    article .article-link:hover {
+        margin-left: 0;
+	}
+}
+
+@media screen and (max-width:460){
+    nav ul a{
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	aside{
+		display: none
+	}
+
+	.info{
+		display: none
+	}
+
+	article{
+		margin: 25px auto;
+	}
+
+	article img{
+		margin: -5% 0 25px -5%;
+	}
+}
+
+
+
+
