@@ -1,100 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
-  <!--     │││├┤   ├─┤├┬┘├┤         -->
-  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
-  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
-  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
-  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Digital</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    
     <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-        </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">REGISTRATION</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
-        </div>
-      </div>
+        <h1 class="judul">Novel Digital</h1>
+        <p class="penjelasan">
+            Website ini menyediakan novel secara digital untuk mempermudah bagi pecinta novel.
+        </p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Profile</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>FRONTEND B3</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
-        <p>We offer you a fully equipped coding environment to get you started.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Sign up with Email</a>
-          <p>or</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
-        </div>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Frontend B3</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-              <p>HTML & CSS</p>
+
+    <main>
+        <aside>
+            <div class="sidebar">
+                <h2>My Profile</h2>
+                <center>
+                    <a href="about.html"><img src="img/me.jpg" alt="Diana Pungki"></a>
+                    <h5>Email :<a  href="https://www.gmail.com">dianapungki379@gmail.com</a></h5>
+                    <h5>Instagram :<a  href="https://www.instagram.com/diana_pungkiz">diana_pungkiz</a></h5>
+                </center>
             </div>
-            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
+            <div class="sidebar">
+                <h2>Biodata</h2>
+                <p>
+                    Nama : Diana Pungki <br><br>
+                    Tanggal Lahir : 27 Februari 2001 <br><br>
+                    Alamat : Pasuruan <br><br>
+                    Agama : Islam <br><br>
+                </p>
             </div>
-            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
+
+            <div class="sidebar">
+                <h2>Jam</h2>
+                    <div id="clockDisplay" class="clockstyle">11:25:48</div>
             </div>
-            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
-          </div>
-          <div class="clear"></div>
+        </aside>
+        
+        <div id="content">
+            <article>
+                <h1> My Idiot Brother </h1>
+                <img src="./img/a.jpg" alt="My Idiot Brother">
+				
+				<p>
+					<b>" Ketika tidak ada lagi cara untuk mencari kebahagiaan maka kita hanya memiliki satu pilihan untuk mengorbankan apa yang kita sebut kebencian, sebab hanya dengan itulah kebahagiaan akan terlahir disamping kita. "</b> Agnes Davonar Sebenarnya apa sih arti kebahagiaan. Buat gua, kebahagian itu dilihat dari siapa saja yang ada di sekitar kita. Buat gua, kebahagiaan itu. Seharusnya dalam hidup gua, hanya ada orang-orang yang berarti. Tapi, sayangnya kebahagiaan yang gua miliki rasanya dikotorin oleh pikiran gua sendiri.
+				</p>
+				<a href="idiot.html" class="article-link">Selengkapnya >></a><br><br><hr><br>
+            </article>
+
+            <article>
+				<h1> Semangat </h1>
+                <img src="./img/b.jpg">
+				<hr>
+				<p>
+					<b>" Pada pagi hari yang cerah, seorang gadis bernama garnetta pergi ke sekolah. Dia sekolah di sekolah no di london ( favorit )."</b> Sekolah ini populer dengan nama sensor high school. Garnetta yaitu seorang wanita yang ramah, baik, serta banyak di sukai temannya. Dikarenakan garnetta orangnya asik di ajak bergaul.
+				</p>
+				<a href="semangat.html" class="article-link">Selengkapnya >></a><br><br><hr><br>
+            </article>
+            
+            <article>
+				<h1> Setia itu Menjaga dan Percaya </h1>
+                <img src="./img/c.jpg">
+				<hr>
+				<p>
+					<b>" Novel Setia Itu Menjaga Dan Percaya -Setia itu terkadang menyakitkan untuk setiap orang yang belum pernah melakukannya."</b> Menekan ego, siap untuk sakit hati dan berkomitmen. Jujur bagi ku hal ini terasa asing, jauh sebelum ini terjadi kesetian bagi hanya untuk mereka yang pantas dicintai dan mencintai lalu apa aku salah tuhan bila kekasih yang dicintai juga memiliki pujaan hati lain. Apa aku salah bila mempertanyakan akan memilih siapa antara aku dan dia kadang semua pertanyaan itu selalu terbayang.
+				</p>
+				<a href="setia.html" class="article-link">Selengkapnya >></a><br><br><hr><br>
+            </article>
         </div>
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Ready to become an awesome programmer?</h2>
-          <h3>Let's learn to code, learn to be creative!</h3>
-        </div>
-        <span class="btn message">Start Learning</span>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
-      </div>
-    </footer>
-  </body>
+        
+        <footer>
+            <div id="footer" >
+                <div class="footer">
+                    <p align="center">Copyright &copy; Diana Pungki 2020</p>
+                </div>
+            </div>
+        </footer> 
+    </main>
+
+    <script src="assets/novel.js"></script>
+</body>
 </html>
